@@ -4,7 +4,6 @@ orgs.newOrg('eclipse-ecal') {
   settings+: {
     description: "",
     name: "Eclipse eCAL (enhanced Communication Abstraction Layer)",
-    readers_can_create_discussions: true,
     two_factor_requirement: false,
     web_commit_signoff_required: false,
     workflows+: {
