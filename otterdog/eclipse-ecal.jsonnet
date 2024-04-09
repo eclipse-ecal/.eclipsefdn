@@ -15,7 +15,7 @@ orgs.newOrg('eclipse-ecal') {
       allow_auto_merge: true,
       allow_merge_commit: true,
       allow_update_branch: false,
-      default_branch: "master",
+      default_branch: "support/v5.13",
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
       description: "📦 eCAL - enhanced Communication Abstraction Layer. A high performance publish-subscribe, client-server cross-plattform middleware. ",
