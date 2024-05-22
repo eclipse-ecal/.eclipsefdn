@@ -23,8 +23,6 @@ orgs.newOrg('eclipse-ecal') {
       gh_pages_source_path: "/",
       has_discussions: true,
       homepage: "https://ecal.io",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "autonomous-driving",
         "client-server",
@@ -92,8 +90,6 @@ orgs.newOrg('eclipse-ecal') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "ecal-algorithm-samples",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -105,8 +101,6 @@ orgs.newOrg('eclipse-ecal') {
       delete_branch_on_merge: false,
       description: "👨‍🏫 eCAL Webcam publisher sample and Monitor plugin ",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -117,8 +111,6 @@ orgs.newOrg('eclipse-ecal') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "ecal-carla-bridge",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -131,8 +123,6 @@ orgs.newOrg('eclipse-ecal') {
       description: "📦 eCAL C/C++ runtime core",
       has_discussions: true,
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "client-server",
         "cpp",
@@ -160,8 +150,6 @@ orgs.newOrg('eclipse-ecal') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "ecal-foxglove-server",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -174,8 +162,6 @@ orgs.newOrg('eclipse-ecal') {
       delete_branch_on_merge: false,
       description: "eCAL interface to the linux gps service daemon ",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "cmake",
         "ecal",
@@ -197,8 +183,6 @@ orgs.newOrg('eclipse-ecal') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "ecal-matlab-binding",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -208,8 +192,6 @@ orgs.newOrg('eclipse-ecal') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -221,8 +203,6 @@ orgs.newOrg('eclipse-ecal') {
       default_branch: "master",
       delete_branch_on_merge: false,
       description: "ecal-mqtt-bridge",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -233,8 +213,6 @@ orgs.newOrg('eclipse-ecal') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "Rust bindings to the Continental eCAL API",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -251,8 +229,6 @@ orgs.newOrg('eclipse-ecal') {
       delete_branch_on_merge: false,
       description: "eCAL common utiities collection",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "cpp",
         "ecal",
@@ -268,8 +244,6 @@ orgs.newOrg('eclipse-ecal') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "Ecal UDP",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -290,8 +264,6 @@ orgs.newOrg('eclipse-ecal') {
       delete_branch_on_merge: false,
       description: "📦 C++ FTP Server Library for Windows 🪟, Linux 🐧 & more 💾",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "asio",
         "c-plusplus",
@@ -315,8 +287,6 @@ orgs.newOrg('eclipse-ecal') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "protobuf-datatypes-collection",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -330,8 +300,6 @@ orgs.newOrg('eclipse-ecal') {
       description: "ROS2 middleware based on eCAL",
       has_discussions: true,
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "ecal",
         "middleware",
@@ -350,8 +318,6 @@ orgs.newOrg('eclipse-ecal') {
       delete_branch_on_merge: false,
       description: "Middleware agnostic ros2 static typesupport which uses Protobuf for serialization/deserialization.",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "protobuf",
         "ros2",
@@ -369,8 +335,6 @@ orgs.newOrg('eclipse-ecal') {
       delete_branch_on_merge: false,
       description: "📦 TCP based publish-subscribe library for C++ 🌐",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "cpp",
         "publish-subscribe",
@@ -398,8 +362,6 @@ orgs.newOrg('eclipse-ecal') {
       delete_branch_on_merge: false,
       description: "📦 Npcap-based UDP socket emulation library for C++ 👨‍💻",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "cpp",
         "npcap",
