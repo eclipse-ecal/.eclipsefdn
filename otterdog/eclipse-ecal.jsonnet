@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-ecal') {
+orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
   settings+: {
     description: "",
     name: "Eclipse eCAL (enhanced Communication Abstraction Layer)",
