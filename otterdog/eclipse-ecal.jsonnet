@@ -385,7 +385,7 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      description: "eCAL common utiities collection",
+      description: "Grafana dashboard for Eclipse eCAL",
       homepage: "",
       topics+: [
         "grafana",
