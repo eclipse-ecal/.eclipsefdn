@@ -178,16 +178,6 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
         default_workflow_permissions: "write",
       },
     },
-    orgs.newRepo('ecal-matlab-binding') {
-      allow_merge_commit: true,
-      allow_update_branch: false,
-      delete_branch_on_merge: false,
-      description: "ecal-matlab-binding",
-      web_commit_signoff_required: false,
-      workflows+: {
-        default_workflow_permissions: "write",
-      },
-    },
     orgs.newRepo('ecal-mcap-tools') {
       allow_merge_commit: true,
       allow_update_branch: false,
