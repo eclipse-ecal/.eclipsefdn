@@ -202,7 +202,7 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      description: "Rust bindings to the Continental eCAL API",
+      description: "Rust bindings to the Eclipse eCAL API",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -210,6 +210,40 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
       secrets: [
         orgs.newRepoSecret('CRATES_IO_TOKEN') {
           value: "********",
+        },
+      ],
+    },
+    orgs.newRepo('rustecal') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "Idiomatic Rust bindings for eCAL.",
+      homepage: "https://github.com/eclipse-ecal/rustecal",
+      topics+: [
+        "rust",
+        "ipc",
+        "middleware",
+        "publish-subscribe",
+        "client-server",
+        "ecal",
+        "ffi",
+        "interprocess-communication"
+      ],
+      web_commit_signoff_required: false,
+      workflows+: {
+        default_workflow_permissions: "write",
+      },
+      secrets: [
+        orgs.newRepoSecret('CRATES_IO_TOKEN') {
+          value: "********",
+        },
+      ],
+      branch_protection_rules: [
+        orgs.newBranchProtectionRule('main') {
+          required_approving_review_count: 0,
+          requires_linear_history: true,
+          requires_status_checks: false,
+          requires_strict_status_checks: true,
         },
       ],
     },
