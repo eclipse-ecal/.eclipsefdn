@@ -246,6 +246,9 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
           requires_strict_status_checks: true,
         },
       ],
+      gh_pages_build_type: "legacy",
+      gh_pages_source_branch: "gh-pages",
+      gh_pages_source_path: "/",
     },
     orgs.newRepo('ecal-utils') {
       allow_merge_commit: true,
