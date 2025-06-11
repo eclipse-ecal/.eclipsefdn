@@ -217,6 +217,8 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
+      dependabot_security_updates_enabled: true,
+      private_vulnerability_reporting_enabled = true,
       description: "Idiomatic Rust bindings for eCAL.",
       homepage: "https://eclipse-ecal.github.io/rustecal",
       has_discussions: true,
