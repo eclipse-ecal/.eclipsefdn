@@ -219,6 +219,7 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
       delete_branch_on_merge: false,
       description: "Idiomatic Rust bindings for eCAL.",
       homepage: "https://eclipse-ecal.github.io/rustecal",
+      has_discussions: true,
       topics+: [
         "rust",
         "ipc",
