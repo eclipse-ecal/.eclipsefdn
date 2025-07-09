@@ -201,7 +201,7 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
     orgs.newRepo('ecal-rs') {
       allow_merge_commit: true,
       allow_update_branch: false,
-      archived: false,
+      archived: true,
       delete_branch_on_merge: false,
       description: "Rust bindings to the Eclipse eCAL API",
       web_commit_signoff_required: false,
