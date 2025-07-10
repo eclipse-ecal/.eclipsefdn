@@ -426,6 +426,20 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
         default_workflow_permissions: "write",
       },
     },
+    orgs.newRepo('ecal-test-suite') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      default_branch: "main",
+      delete_branch_on_merge: false,
+      description: "Test suite for Eclipse eCAL",
+      homepage: "",
+      topics+: [
+      ],
+      web_commit_signoff_required: false,
+      workflows+: {
+        default_workflow_permissions: "write",
+      },
+    },
   ],
 } + {
   # snippet added due to 'https://github.com/EclipseFdn/otterdog-configs/blob/main/blueprints/add-dot-github-repo.yml'
