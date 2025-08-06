@@ -64,6 +64,9 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
         orgs.newRepoSecret('JENKINS_USERNAME') {
           value: "********",
         },
+        orgs.newRepoSecret('ECAL_TEST_SUITE_DISPATCH_GITHUB_TOKEN') {
+          value: "pass:bots/automotive.ecal/github.com/token-ECAL_TEST_SUITE_DISPATCH_GITHUB_TOKEN",
+        },
       ],
       branch_protection_rules: [
         orgs.newBranchProtectionRule('master') {
@@ -442,6 +445,11 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
       workflows+: {
         default_workflow_permissions: "write",
       },
+      secrets: [
+        orgs.newRepoSecret('ECAL_TEST_SUITE_COMMIT_STATUS_GITHUB_TOKEN') {
+          value: "pass:bots/automotive.ecal/github.com/token-ECAL_TEST_SUITE_COMMIT_STATUS_GITHUB_TOKEN",
+        },
+      ],
     },
   ],
 } + {
