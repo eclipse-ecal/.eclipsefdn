@@ -451,6 +451,25 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
         },
       ],
     },
+    orgs.newRepo('cherry-pick-to') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      default_branch: "main",
+      delete_branch_on_merge: false,
+      description: "Action for cherry-picking commits comming from Pull requests",
+      gh_pages_build_type: "legacy",
+      gh_pages_source_branch: "gh-pages",
+      gh_pages_source_path: "/",
+      homepage: "",
+      topics+: [
+        "GitHub Action",
+        "Cherry-pick",
+      ],
+      web_commit_signoff_required: false,
+      workflows+: {
+        default_workflow_permissions: "write",
+      },
+    },
   ],
 } + {
   # snippet added due to 'https://github.com/EclipseFdn/otterdog-configs/blob/main/blueprints/add-dot-github-repo.yml'
