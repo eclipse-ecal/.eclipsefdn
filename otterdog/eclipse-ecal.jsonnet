@@ -462,7 +462,7 @@ orgs.newOrg('automotive.ecal', 'eclipse-ecal') {
       gh_pages_source_path: "/",
       homepage: "",
       topics+: [
-        "gitHub-action",
+        "github-action",
         "cherry-pick",
       ],
       web_commit_signoff_required: false,
